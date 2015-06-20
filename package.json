@@ -10,8 +10,9 @@
     "atom": ">=0.174.0"
   },
   "dependencies": {
-    "atom-space-pen-views": "^2.0.0",
+    "space-pen": "~5.1.1",
     "theorist": "~1.0.2",
-    "node-ipc": "~1.1.13"
+    "node-ipc": "~1.1.13",
+    "xform-js": "0.1.0"
   }
 }
