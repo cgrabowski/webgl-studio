@@ -1,0 +1,17 @@
+{
+  "name": "webgl-studio",
+  "version": "0.0.1",
+  "description": "A WebGL development environment that runs inside Atom Editor.",
+  "author": "Christopher Grabowski",
+  "license": "MIT",
+  "repository": "https://github.com/cgrabowski/webgl-studio",
+  "main": "./lib/webgl-studio.coffee",
+  "engines": {
+    "atom": ">=0.174.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.0",
+    "theorist": "~1.0.2",
+    "node-ipc": "~1.1.13"
+  }
+}
