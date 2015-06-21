@@ -1,0 +1,8 @@
+'menu': [
+  {
+    'label': 'File'
+    'submenu':[
+      {'label': 'Add WebGL Studio Project', 'command': 'webgl-studio-open-project'}
+      ]
+  }
+]
