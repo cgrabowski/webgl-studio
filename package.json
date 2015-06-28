@@ -5,15 +5,18 @@
   "author": "Christopher Grabowski",
   "license": "MIT",
   "repository": "https://github.com/cgrabowski/webgl-studio",
-  "main": "./lib/webgl-studio.coffee",
+  "main": "./lib/webgl-studio-main.coffee",
   "engines": {
     "atom": ">=0.174.0"
   },
   "dependencies": {
+    "three": "0.71.0",
+    "esprima": "~2.4.0",
+    "xform-js": "~0.1.0",
+    "node-ipc": "~1.1.13",
+    "atom-space-pen-views": "^2.0.0",
     "event-kit": "^1.0.0",
     "space-pen": "~5.1.1",
-    "theorist": "~1.0.2",
-    "node-ipc": "~1.1.13",
-    "xform-js": "0.1.0"
+    "theorist": "~1.0.2"
   }
 }
